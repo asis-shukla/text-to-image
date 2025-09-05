@@ -20,7 +20,7 @@ This repository contains a simple web application that generates an image from u
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/text-to-image.git
+    git clone https://github.com/asis-shukla/text-to-image.git
     cd text-to-image
     ```
 

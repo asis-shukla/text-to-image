@@ -1,16 +1,11 @@
 [project]
-name = "first"
+name = "Text To Image"
 version = "0.1.0"
-description = "Add your description here"
+description = "Generate and download image from your input text"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.116.1",
     "pillow>=11.3.0",
     "uvicorn>=0.35.0",
-]
-
-[tool.uv.workspace]
-members = [
-    "second",
 ]

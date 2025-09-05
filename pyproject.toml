@@ -1,5 +1,5 @@
 [project]
-name = "Text To Image"
+name = "Text-To-Image"
 version = "0.1.0"
 description = "Generate and download image from your input text"
 readme = "README.md"

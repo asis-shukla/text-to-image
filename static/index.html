@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Text To Image</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Text To Image</h1>
+        <form id="textForm">
+            <textarea id="textInput" placeholder="Enter text to generate image" required rows="3" style="resize:none;overflow-y:hidden;max-height:220px;"></textarea>
+            <button type="submit">Generate Image</button>
+        </form>
+        <div class="error" id="errorMsg"></div>
+        <div class="result" id="resultSection" style="display:none;">
+            <h2>Generated Image</h2>
+            <div id="generatedText"></div>
+            <img id="generatedImage" src="" alt="Generated from text" />
+            <div style="margin-top: 18px; display: flex; gap: 12px; justify-content: center;">
+                <button id="downloadBtn" type="button" style="background:#10b981;">Download</button>
+                <button id="clearBtn" type="button" style="background:#ef4444;">Clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/main.js"></script>
+</body>
+
+</html>

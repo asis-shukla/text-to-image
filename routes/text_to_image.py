@@ -18,7 +18,7 @@ def _get_sd_pipeline():
     try:
         model_id = os.getenv("SD_MODEL_ID", 'prompthero/openjourney')
         device = "cuda" if torch.cuda.is_available() else "cpu"
-        dtype = torch.float16 if device == "cuda" else torch.float32
+        dtype = torch.float32 if device == "cuda" else torch.float16
         pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=dtype)
         print("pipe 2", pipe)
         if device == "cuda":

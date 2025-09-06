@@ -5,7 +5,11 @@ description = "Generate and download image from your input text"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "accelerate>=1.10.1",
+    "diffusers>=0.35.1",
     "fastapi>=0.116.1",
     "pillow>=11.3.0",
+    "torch>=2.8.0",
+    "transformers>=4.56.1",
     "uvicorn>=0.35.0",
 ]

@@ -18,7 +18,7 @@ form.addEventListener('submit', async (e) => {
         return;
     }
     try {
-        const response = await fetch('/api/text-to-image', {
+        const response = await fetch('/api/text-to-image-v2', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ text })
